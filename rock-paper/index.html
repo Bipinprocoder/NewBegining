@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <h2>User Choice: <span id="user-choice"></span></h2>
+    <h2>Result: <span id="result"></span></h2>
+
+    <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button>
+    <script>
+       const computerChoiceDisplay = document.getElementById('computer-choice');
+      const userChoiceDisplay = document.getElementById('user-choice');
+      const resultDisplay = document.getElementById('result');
+
+      const possibleChoices = document.querySelectorAll('button');
+
+      let userChoice 
+      let computerChoice 
+      let finalResult
+
+      possibleChoices.forEach(ps => ps.addEventListener('click', (e) => {
+       
+        userChoice = e.target.id 
+        userChoiceDisplay.innerHTML = userChoice 
+
+        generateComputerChoice()
+        getResult()
+      }))
+
+      function generateComputerChoice (){
+        const randomNumber = Math.floor(Math.random () * 3) + 1 // you can also use computerChoiceDisplay.length.
+
+        if(randomNumber === 1){
+            computerChoice = 'rock';
+        }
+        if(randomNumber === 2){
+            computerChoice = 'paper';
+        }
+        if(randomNumber === 3){
+            computerChoice = 'scissors';
+        }
+        computerChoiceDisplay.innerHTML = computerChoice;
+      }
+      function getResult(){
+        if (userChoice == computerChoice){
+            finalResult = 'Its a draw';
+        }
+        if (userChoice == 'paper' && computerChoice == 'scissors'){
+        finalResult = 'You win!';
+        }
+        if(userChoice == 'paper' && computerChoice == 'rock'){
+            finalResult = 'You win!';
+        }
+        if(userChoice == 'rock' && computerChoice =='paper'){
+            finalResult = 'You lost!'
+        }
+        if(userChoice == 'rock' && computerChoice == 'scissors'){
+            finalResult = 'You win!';
+        }
+        if(userChoice == 'scissors' && computerChoice == 'rock'){
+            finalResult = 'You lost!';
+        }
+        if(userChoice == 'scissors' && computerChoice == 'paper' ){
+            finalResult = 'You win!'
+        }
+        resultDisplay.innerHTML = finalResult;
+      }
+    </script>
+</body>
+</html>
