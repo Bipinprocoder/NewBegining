@@ -1,0 +1,145 @@
+body
+{
+    background: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+h1
+{
+    color: #fff;
+    padding: 5px;
+    height: 100px;
+    
+    
+}
+h1 span
+{
+    display: inline-block;
+   animation: bounce 0.5s ease alternate infinite;
+   height: 50px;
+   font-weight: bold;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 0.1s ;
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 0.2s ;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 0.3s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 0.4s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 0.2s ;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 0.3s ;
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 0.4s;
+}
+h1 span:nth-child(10)
+{
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(11)
+{
+    animation-delay: 0.1s;
+}
+h1 span:nth-child(12)
+{
+    animation-delay: 0.2s ;
+}
+h1 span:nth-child(13)
+{
+    animation-delay: 0.3s ;
+}
+h1 span:nth-child(14)
+{
+    animation-delay: 0.4s;
+}
+h1 span:nth-child(15)
+{
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(16)
+{
+    animation-delay: 0.1s ;
+}
+h1 span:nth-child(17)
+{
+    animation-delay: 0.2s ;
+}
+h1 span:nth-child(18)
+{
+    animation-delay: 0.3s;
+}
+h1 span:nth-child(19)
+{
+    animation-delay: 0.4s;
+}
+h1 span:nth-child(20)
+{
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(21)
+{
+    animation-delay: 0.2s ;
+}
+h1 span:nth-child(22)
+{
+    animation-delay: 0.3s ;
+}
+h1 span:nth-child(23)
+{
+    animation-delay: 0.4s;
+}
+h1 span:nth-child(24)
+{
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(25)
+{
+    animation-delay: 0.1s;
+}
+h1 span:nth-child(26)
+{
+    animation-delay: 0.2s ;
+}
+h1 span:nth-child(27)
+{
+    animation-delay: 0.3s ;
+}
+h1 span:nth-child(28)
+{
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce
+{
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(-20%);}
+  from { color:rgb(255, 255, 255)}
+  to { color: rgb(214, 0, 0);}
+  span {from{ background: rgb(255, 255, 255)}}
+   to { background: rgb(1, 255, 43);}
+}
+
+
