@@ -1,0 +1,19 @@
+.Element{
+    height: 606px;
+    width: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.element{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+   
+}
+.mole{
+    background-image:url('Anime.jpeg');
+    background-size: cover;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
