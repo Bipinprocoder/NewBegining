@@ -1,0 +1,303 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url('B2.jpg');
+   
+}
+ul {
+    list-style: none;
+    color: rgb(255, 254, 254);
+    background-color: blueviolet;
+    padding: 0;
+    margin: 0;
+
+
+}
+ul li{
+ display: inline-block;
+ padding: 10px;
+
+}
+ul li:hover{
+    background-color: red;
+}
+.nolan{
+    display: none;
+}
+ul li:hover .nolan{
+    position: absolute;
+    display: block;
+    margin-left: -0.26cm;
+    margin-top: 0.27cm;
+}
+
+.nolan ul{
+    background-color: #fff;
+    color: #000;
+}
+.nolan ul li{
+    display:block;
+}
+
+.nolan2{
+    display: none;
+}
+ul li:hover .nolan2{
+    position: absolute;
+    display: block;
+    margin-left: -0.28cm;
+    margin-top: .27cm;
+}
+.nolan2 ul{
+    background-color: #fff;
+    color: #000;
+}
+.nolan2 ul li{
+    display:block;
+}
+
+
+.nolan3{
+    display: none;
+}
+
+ul li:hover .nolan3{
+    position: absolute;
+    display: block;
+    margin-top: .27cm;
+    margin-left: -0.27cm;
+}
+.nolan3 ul{
+    background-color: #fff;
+    color: #000;
+}
+.nolan3 ul li{
+    display:block;
+}
+
+
+.nolan4{
+    display: none;
+}
+
+ul li:hover .nolan4{
+    position: absolute;
+    display: block;
+    margin-top: .27cm;
+    margin-left: -0.26cm;
+}
+.nolan4 ul{
+    background-color: #fff;
+    color: #000;
+}
+.nolan4 ul li{
+    display:block;
+}
+.a{
+  display: none;
+}
+.nolan ul li:hover .a{
+    position: absolute;
+    display: block;
+    margin-left: 1.7cm;
+    margin-top: -0.75cm;
+}
+.a ul{
+    background-color: chartreuse;
+}
+.m ul{
+    background-color:#fff;
+}
+.m{
+    display:none
+}
+.a ul li:hover .m{
+    position: absolute;
+    display: block;
+    margin-top: -1.22cm;
+    margin-left: 2.34cm;
+}
+
+.y ul{
+    background-color: chartreuse;
+}
+.y{
+    display: none;
+}
+ .nolan ul li:hover .y {
+    position: absolute;
+    display: block;
+    margin-left: 1.68cm;
+    margin-top: -0.75cm;
+}
+.tr ul{
+    background-color: fuchsia;
+}
+.tr{
+    display: none;
+}
+.m ul li:hover .tr{
+    position: absolute;
+    display: block;
+    margin-left: 2.46cm;
+    margin-top: -0.74cm;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.m1 ul{
+    background-color: deeppink;
+    color: #fff;
+}
+.m1{
+    display:none;
+}
+.y ul li:hover .m1{
+    position: absolute;
+    display: block;
+    margin-top: -.75cm;
+    margin-left: 1.1cm;
+}
+
+.m2 ul{
+    background-color: deeppink;
+    color: #fff;
+}
+.m2{
+    display:none;
+}
+.y ul li:hover .m2{
+    position: absolute;
+    display: block;
+    margin-top: -.75cm;
+    margin-left:1.1cm;
+}
+
+
+
+.m3 ul{
+    background-color: deeppink;
+    color: #fff;
+}
+.m3{
+    display:none;
+}
+.y ul li:hover .m3{
+    position: absolute;
+    display: block;
+    margin-top: -.75cm;
+    margin-left:1.1cm;
+}
+
+
+
+.m4 ul{
+    background-color: deeppink;
+    color: #fff;
+}
+.m4{
+    display:none;
+}
+.y ul li:hover .m4{
+    position: absolute;
+    display: block;
+    margin-top: -.75cm;
+    margin-left:1.1cm;
+}
+
+
+
+.m5 ul{
+    background-color: deeppink;
+    color: #fff;
+}
+.m5{
+    display:none;
+}
+.y ul li:hover .m5{
+    position: absolute;
+    display: block;
+    margin-top: -.75cm;
+    margin-left: 1.1cm;
+}
+
+.tr1 ul{
+   background-color: #fff;
+   color: #000;
+}
+.tr1{
+    display: none;
+}
+.m1 ul li:hover  .tr1{
+    position: absolute;
+    display: block;
+    margin-top: -2.15cm;
+    margin-left: 2.2cm;
+}
+
+
+.tr2 ul{
+    background-color: #fff;
+    color: #000;
+ }
+ .tr2{
+     display: none;
+ }
+ .m2 ul li:hover  .tr2{
+     position: absolute;
+     display: block;
+     margin-top: -1.2cm;
+     margin-left: 1.36cm;
+ }
+
+ 
+.tr3 ul{
+    background-color: #fff;
+    color: #000;
+ }
+ .tr3{
+     display: none;
+ }
+ .m3 ul li:hover  .tr3{
+     position: absolute;
+     display: block;
+     margin-top: -1.2cm;
+     margin-left: 2.08cm;
+ }
+
+
+
+ 
+.tr4 ul{
+    background-color: #fff;
+    color: #000;
+ }
+ .tr4{
+     display: none;
+ }
+ .m4 ul li:hover  .tr4{
+     position: absolute;
+     display: block;
+     margin-top: -1.2cm;
+     margin-left: 2.46cm;
+ }
+
+ 
+.tr5 ul{
+    background-color: #fff;
+    color: #000;
+ }
+ .tr5 {
+     display: none;
+ }
+ .m5 ul li:hover  .tr5{
+     position: absolute;
+     display: block;
+     margin-top: -1.67cm;
+     margin-left: 1.4cm;
+ }
+
+

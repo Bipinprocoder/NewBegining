@@ -1,0 +1,97 @@
+
+@import url('http://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('B1.jpg'); 
+  font-family: 'Poppins' , momospace;
+
+}
+ul{
+  list-style: none;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+ul li{
+  display: inline-block;
+  padding: 10px;
+  
+ 
+}
+
+ul li a 
+{
+  text-decoration: none;
+  color:white;
+}
+ul li:hover
+{
+  background:#6d30c9;
+}
+.try{
+  display: none;
+}
+.try ul
+  {
+     background-color:white;
+     color:black;
+  }
+ul li:hover .try
+{
+  display: block;
+  position: absolute;
+  margin-left: -0.27cm;
+  margin-top: 0.27cm;
+}
+.try ul{
+  margin: 0;
+  padding: 0;
+}
+.down{
+  display: none;
+}
+ul li:hover .down{
+  display: block;
+  position: absolute;
+  margin-top: 0.27cm;
+  margin-left: -0.28cm;
+}
+.down ul{
+  margin: 0;
+  padding: 0;
+}
+.down ul
+ {
+   background-color:white;
+   color:black;
+ }
+.new{
+  display: none;
+}
+
+ul li:hover .new{
+  display: block;
+  position: absolute;
+  margin-top: 0.27cm;
+  margin-left: -0.25cm;
+}
+.new ul {
+  margin: 0;
+  padding: 0;
+}
+.new ul
+ {
+   background-color:red;
+   color:white;
+ }
+.try ul li{
+  display: block;
+}
+.down ul li{
+  display: block;
+}
+.new ul li{
+  display: block;
+}
