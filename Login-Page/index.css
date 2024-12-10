@@ -1,0 +1,205 @@
+body{
+    background-color:#000;
+}
+.c1{
+    height: 120px;
+    width: 120px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.c2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #32fc00;
+    margin-left: 270px;
+    margin-top: 180px;
+   
+  
+ 
+   
+}
+
+@keyframes Anime3{
+   from{
+    background-color: red;
+   }
+   to{
+    background-color: blue;
+   }
+}
+
+.p{
+    height: 420px;
+    width: 290px;
+    background-color: rgba(207, 191, 191, 0.363);
+    margin-top: -450px;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px ;
+}
+.p:hover{
+   box-shadow: 20px 20px 50px ;
+   transition: 1s;
+}
+
+.h{
+    
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    margin-top: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;   
+    font-weight:normal;
+}
+
+.circle{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 4px solid red;
+}
+
+
+
+.input-box1 input{
+    height: 40px;
+    margin-top: 
+    5px;
+    margin-left: 30px;
+    width: 220px;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgb(51, 255, 0);
+    font-size: 1em;
+    color: #fff;
+}
+
+
+
+.input-box2 input{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 220px;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgb(51, 255, 0);
+    font-size: 1em;
+    color: #fff;
+}
+
+.e1{
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+
+.p1{
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.s{
+    height: 50px;
+    width: 200px;
+    background-color: #ffffff5d;
+    margin-top: -420px;
+    margin-left: 375px;
+    transform: rotate(45deg);
+    
+}
+.s2{
+    height:50px;
+    width: 200px;
+    background-color: #ffffff5d ;
+    margin-top:325px;
+    margin-left: 120px;
+    transform: rotate(45deg);
+    
+}
+
+@keyframes Anime1{
+    from{
+        background-color:#ffffff5d ;
+    }
+    to{
+        background-color:rgba(17, 0, 255, 0.336);
+    }
+}
+
+@keyframes Anime2{
+    from{
+        background-color:#ffffff5d ;
+    }
+    to{
+        background-color:rgba(81, 255, 0, 0.336);
+    }
+}
+.f a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.f:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.f{
+    margin-top: 15px;
+    margin-left:60px ;
+}
+.btn{
+
+    width: 240px;
+    margin-left: 25px;
+    height: 47px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+
+}
+.sign{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 15px;
+    margin-left: 95px;
+    color:rgb(255, 0, 64);
+    font-weight: 500;
+}
+
+
+.sign a{
+    text-decoration: none;
+}
+
+
+.b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fffffff3;
+    margin-left: 35px;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px ;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
